@@ -13,7 +13,7 @@ private:
     float _r2;
     float _referenceVoltage;
 public:
-    VoltMeter(int readPin, float r1, float r2, float referenceVoltage);
+    VoltMeter(int readPin, float r1, float r2, float referenceVoltage=5);
     float getVoltage();
 };
 

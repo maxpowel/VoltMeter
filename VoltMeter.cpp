@@ -5,9 +5,9 @@
 #include "VoltMeter.h"
 
 float VoltMeter::getVoltage() {
-    float v = (analogRead(_readPin) * _referenceVoltage) / 1024.0;
-    float v2 = v / (_r2 / (_r1 + _r2));
-    return v2;
+    float vout = (analogRead(_readPin) * _referenceVoltage) / 1024.0;
+    float vin = vout / (_r2 / (_r1 + _r2));
+    return vin;
 }
 
 VoltMeter::VoltMeter(int readPin, float r1, float r2, float referenceVoltage){
