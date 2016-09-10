@@ -34,6 +34,6 @@ Of course you can use a combination of R1 and R2 to get 2.5V when the input is 1
 
 For build the voltage divider you can follow this schema
 
-![Voltage divider schema](https://github.com/maxpowel/VoltMeter/voltage-divider.png)
+![Voltage divider schema](https://raw.githubusercontent.com/maxpowel/VoltMeter/master/voltage-divider.png)
 
 To get your values for R1 and R2 just use an voltage divider calculator
